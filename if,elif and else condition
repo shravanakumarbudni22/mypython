@@ -1,0 +1,12 @@
+#if elif or else condition
+mark=int(input("enter your mark"))
+if mark>=90:
+  print("excellent")
+elif mark>=80:
+  print("distinction")
+elif mark>=70:
+  print("good")
+elif mark>=50:
+  print("average")
+else:
+  print("fail good night")
