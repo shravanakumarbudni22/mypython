@@ -1,0 +1,8 @@
+#Laregest of two numbers
+num1 = int(input("enter the numbe"))
+num2 = int(input("enter the number"))
+if num1>=num2:
+  largest_number = num1
+else:
+  largest_number = num2
+  print("largest_number is",largest_number)
