@@ -1,0 +1,8 @@
+# Sum until a negative number
+ sum = 0
+while True:
+  num = int(input("Enter a number: "))
+  if num < 0:
+   break
+  sum += num
+ print("The total sum is:", sum)
