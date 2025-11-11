@@ -1,0 +1,6 @@
+#Leap year checker
+year_to_check=int(input("enter the year"))
+if year_to_check:
+  print(f"{year_to_check} is a leap year")
+else:
+  print(f'{year_to_check}is not a leap year')  
